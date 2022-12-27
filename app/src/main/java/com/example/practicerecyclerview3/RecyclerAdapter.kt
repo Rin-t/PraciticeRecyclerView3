@@ -23,6 +23,6 @@ class RecyclerAdapter(private val todoList: ArrayList<ToDoData>): RecyclerView.A
     }
 
     override fun getItemCount(): Int {
-        todoList.size
+        return todoList.size
     }
 }
